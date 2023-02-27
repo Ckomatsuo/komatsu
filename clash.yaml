@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2023-02-07 10:20:39
+#  创建时间：2023-02-27 10:10:26
 #  模版：ACL4SSR_Mini
-#  节点数量：15
+#  节点数量：25
 #-------------------------------------------------------------#
 #
 mixed-port: 7890
@@ -22,6 +22,16 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
+  - {"type":"ss","name":"Canada+OVH","server":"ovh.hydev.org","port":14783,"cipher":"chacha20-ietf-poly1305","password":"8c80d838-253c-41df-afda-d0f04a2c0873"}
+  - {"type":"ss","name":"Canada+OVH+2","server":"ovh2.hydev.org","port":14783,"cipher":"chacha20-ietf-poly1305","password":"8c80d838-253c-41df-afda-d0f04a2c0873"}
+  - {"type":"ss","name":"Canada+OVH+T1","server":"158.69.185.230","port":14783,"cipher":"chacha20-ietf-poly1305","password":"8c80d838-253c-41df-afda-d0f04a2c0873"}
+  - {"type":"ss","name":"Canada+OVH+T2","server":"167.114.194.138","port":14783,"cipher":"chacha20-ietf-poly1305","password":"8c80d838-253c-41df-afda-d0f04a2c0873"}
+  - {"type":"ss","name":"New+Jersey+Vultr","server":"nj.hydev.org","port":14783,"cipher":"chacha20-ietf-poly1305","password":"8c80d838-253c-41df-afda-d0f04a2c0873"}
+  - {"type":"vmess","name":"UofTCTFQuebec","server":"uoftctf.hydev.org","port":"8080","uuid":"024eb2e3-65e8-4b30-bb24-f1ff6501fc8e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"HyDEVTokyoVultr","server":"nix.hydev.org","port":"8080","uuid":"024eb2e3-65e8-4b30-bb24-f1ff6501fc8e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"HyDEV+Tokyo+Vultr+SS","server":"nix.hydev.org","port":14783,"cipher":"chacha20-ietf-poly1305","password":"8c80d838-253c-41df-afda-d0f04a2c0873"}
+  - {"type":"ss","name":"HyDEV+Luxembourg","server":"lux.hydev.org","port":14783,"cipher":"chacha20-ietf-poly1305","password":"8c80d838-253c-41df-afda-d0f04a2c0873"}
+  - {"type":"ss","name":"HyDEV+杭州+阿里云","server":"cn.hydev.org","port":14783,"cipher":"chacha20-ietf-poly1305","password":"8c80d838-253c-41df-afda-d0f04a2c0873"}
   - {"type":"trojan","name":"CN_09","server":"official.taipeicitygovernment.if.ua","port":8443,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"Singapore-Melbikom-dip","server":"5.44.249.51","port":3306,"password":"26a663656e575c0b","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"美国+Microsoft数据中心","server":"sg.stablize.top","port":443,"password":"7d0f1f83-0f2f-4b90-930e-de44ac233fef","udp":true,"skip-cert-verify":true}
@@ -43,6 +53,16 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - Canada+OVH
+      - Canada+OVH+2
+      - Canada+OVH+T1
+      - Canada+OVH+T2
+      - New+Jersey+Vultr
+      - UofTCTFQuebec
+      - HyDEVTokyoVultr
+      - HyDEV+Tokyo+Vultr+SS
+      - HyDEV+Luxembourg
+      - HyDEV+杭州+阿里云
       - CN_09
       - Singapore-Melbikom-dip
       - 美国+Microsoft数据中心
@@ -64,6 +84,16 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - Canada+OVH
+      - Canada+OVH+2
+      - Canada+OVH+T1
+      - Canada+OVH+T2
+      - New+Jersey+Vultr
+      - UofTCTFQuebec
+      - HyDEVTokyoVultr
+      - HyDEV+Tokyo+Vultr+SS
+      - HyDEV+Luxembourg
+      - HyDEV+杭州+阿里云
       - CN_09
       - Singapore-Melbikom-dip
       - 美国+Microsoft数据中心
@@ -96,6 +126,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Canada+OVH
+      - Canada+OVH+2
+      - Canada+OVH+T1
+      - Canada+OVH+T2
+      - New+Jersey+Vultr
+      - UofTCTFQuebec
+      - HyDEVTokyoVultr
+      - HyDEV+Tokyo+Vultr+SS
+      - HyDEV+Luxembourg
+      - HyDEV+杭州+阿里云
       - CN_09
       - Singapore-Melbikom-dip
       - 美国+Microsoft数据中心
