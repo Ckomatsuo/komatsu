@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2023-02-27 10:10:26
+#  创建时间：2023-03-14 15:05:19
 #  模版：ACL4SSR_Mini
-#  节点数量：25
+#  节点数量：31
 #-------------------------------------------------------------#
 #
 mixed-port: 7890
@@ -22,6 +22,12 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
+  - {"type":"vmess","name":"🇻🇳BETA-HN(3)(Garena)","ws-opts":{"path":"/vpngiare.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"103.56.160.62","port":"80","uuid":"6fbff942-49ef-4250-bd4d-41a87a16ae4b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇻🇳BETA-HN(3)(Tiktok)","ws-opts":{"path":"/vpngiare.net","headers":{"host":"vpngiare.tiktok.com"}},"server":"103.56.160.62","port":"80","uuid":"6fbff942-49ef-4250-bd4d-41a87a16ae4b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇻🇳BETA-HN(4)(Garena)","ws-opts":{"path":"/vpngiare.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"103.56.160.247","port":"80","uuid":"6fbff942-49ef-4250-bd4d-41a87a16ae4b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇻🇳BETA-HN(4)(Tiktok)","ws-opts":{"path":"/vpngiare.net","headers":{"host":"vpngiare.tiktok.com"}},"server":"103.56.160.247","port":"80","uuid":"6fbff942-49ef-4250-bd4d-41a87a16ae4b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰BETA-HK(1)(LQ)","ws-opts":{"path":"/vpngiare.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"20.239.162.230","port":"80","uuid":"6fbff942-49ef-4250-bd4d-41a87a16ae4b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰BETA-HK(1)(Tiktok)","ws-opts":{"path":"/vpngiare.net","headers":{"host":"vgr.tiktok.com"}},"server":"20.239.162.230","port":"80","uuid":"6fbff942-49ef-4250-bd4d-41a87a16ae4b","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"ss","name":"Canada+OVH","server":"ovh.hydev.org","port":14783,"cipher":"chacha20-ietf-poly1305","password":"8c80d838-253c-41df-afda-d0f04a2c0873"}
   - {"type":"ss","name":"Canada+OVH+2","server":"ovh2.hydev.org","port":14783,"cipher":"chacha20-ietf-poly1305","password":"8c80d838-253c-41df-afda-d0f04a2c0873"}
   - {"type":"ss","name":"Canada+OVH+T1","server":"158.69.185.230","port":14783,"cipher":"chacha20-ietf-poly1305","password":"8c80d838-253c-41df-afda-d0f04a2c0873"}
@@ -53,6 +59,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇻🇳BETA-HN(3)(Garena)
+      - 🇻🇳BETA-HN(3)(Tiktok)
+      - 🇻🇳BETA-HN(4)(Garena)
+      - 🇻🇳BETA-HN(4)(Tiktok)
+      - 🇭🇰BETA-HK(1)(LQ)
+      - 🇭🇰BETA-HK(1)(Tiktok)
       - Canada+OVH
       - Canada+OVH+2
       - Canada+OVH+T1
@@ -84,6 +96,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇻🇳BETA-HN(3)(Garena)
+      - 🇻🇳BETA-HN(3)(Tiktok)
+      - 🇻🇳BETA-HN(4)(Garena)
+      - 🇻🇳BETA-HN(4)(Tiktok)
+      - 🇭🇰BETA-HK(1)(LQ)
+      - 🇭🇰BETA-HK(1)(Tiktok)
       - Canada+OVH
       - Canada+OVH+2
       - Canada+OVH+T1
@@ -126,6 +144,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇻🇳BETA-HN(3)(Garena)
+      - 🇻🇳BETA-HN(3)(Tiktok)
+      - 🇻🇳BETA-HN(4)(Garena)
+      - 🇻🇳BETA-HN(4)(Tiktok)
+      - 🇭🇰BETA-HK(1)(LQ)
+      - 🇭🇰BETA-HK(1)(Tiktok)
       - Canada+OVH
       - Canada+OVH+2
       - Canada+OVH+T1
